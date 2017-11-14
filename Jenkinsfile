@@ -2,7 +2,7 @@ node {
     def app
 
     stage('Clone repository') {
-        /* Let's make sure we have the repository cloned to our workspace */
+        /* Checks out the same Repo that has the Jenkinsfile and clones to our workspace */
 
         checkout scm
     }
